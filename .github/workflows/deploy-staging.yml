@@ -1,0 +1,10 @@
+name: Stage the app
+
+on: 
+  pull-request:
+    types: [labeled]
+jops: 
+  build:
+    runs-on: ubuntu-latest
+    
+    
